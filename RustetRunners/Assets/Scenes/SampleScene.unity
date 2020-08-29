@@ -376,6 +376,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e82d7df1713decb418f030e0740a92cc, type: 3}
+--- !u!1 &1374588386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4226672112098920280, guid: 0ea7f6ca1213ab0438393f0b71704cd4, type: 3}
+  m_PrefabInstance: {fileID: 138793142807985638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1390240119 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 8534099186715222353, guid: e82d7df1713decb418f030e0740a92cc, type: 3}
@@ -652,5 +657,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7104972917279935684, guid: 8c5cb0d7b6a3ac44aa094734b54b01f7, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1374588386}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5cb0d7b6a3ac44aa094734b54b01f7, type: 3}
