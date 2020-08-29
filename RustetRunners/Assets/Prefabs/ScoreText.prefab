@@ -192,4 +192,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 6357013090594834382}
-  player: {fileID: 0}
+  player: {fileID: 5156282889486132264, guid: 0e65a5fd23f05c3449d8d3fd49f1dfe3, type: 3}
