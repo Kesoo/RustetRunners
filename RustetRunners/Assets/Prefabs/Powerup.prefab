@@ -160,3 +160,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   speed: 10
+  pickup: {fileID: 8161245698040187419, guid: 9d967765ef94e0543b6e831663c10f6f, type: 3}
