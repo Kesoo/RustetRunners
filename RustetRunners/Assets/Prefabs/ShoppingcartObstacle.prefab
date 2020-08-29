@@ -113,6 +113,10 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
+      propertyPath: particleEffect
+      value: 
+      objectReference: {fileID: 6298508279208032599, guid: fe55e40ccc450044183c5a0c01abf337, type: 3}
     - target: {fileID: 2739357367970002653, guid: c0431d9363818ac40a878269a453fd53, type: 3}
       propertyPath: m_Sprite
       value: 

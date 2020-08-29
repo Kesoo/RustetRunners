@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour
     public int damage;
     public int minSpeed;
     public int maxSpeed;
+    public GameObject particleEffect;
 
     // Update is called once per frame
     void Update()
@@ -16,6 +17,9 @@ public class Obstacle : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider){
         if(collider.CompareTag("Player")){
+
+            Instantiate(particleEffect, transform.position,  Quaternion.Euler(0, 90, 0));
+
             collider.GetComponent<PlayerStats>().health -= this.damage;
             Debug.Log(collider.GetComponent<PlayerStats>().health);
             Destroy(gameObject);
