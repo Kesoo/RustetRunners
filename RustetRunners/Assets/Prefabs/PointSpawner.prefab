@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &789229627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213926348075239794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a2ed489d767f34bb7391accfa38e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: {fileID: 5596366678879698459, guid: 93460a0dcf356d247a2bacf632ffbe63, type: 3}
+  maxTimeBetweenSpawn: 7
 --- !u!1001 &3601300641492655660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63,5 +77,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointSpawner
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2387708584680839005, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
+--- !u!1 &1213926348075239794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2387708584680839006, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
+  m_PrefabInstance: {fileID: 3601300641492655660}
+  m_PrefabAsset: {fileID: 0}

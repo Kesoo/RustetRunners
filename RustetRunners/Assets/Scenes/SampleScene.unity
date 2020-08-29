@@ -180,6 +180,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62c88601826243f4194b3e1442443a44, type: 3}
+--- !u!1 &789229626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1213926348075239794, guid: 4322fd5b03de4b84aaabad2bae24fb9d, type: 3}
+  m_PrefabInstance: {fileID: 1019104472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &789229627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789229626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a2ed489d767f34bb7391accfa38e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: {fileID: 5596366678879698459, guid: 93460a0dcf356d247a2bacf632ffbe63, type: 3}
+  maxTimeBetweenSpawn: 7
 --- !u!1001 &1019104472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,7 +254,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointSpawner
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1213926348075239793, guid: 4322fd5b03de4b84aaabad2bae24fb9d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4322fd5b03de4b84aaabad2bae24fb9d, type: 3}
 --- !u!1 &1051860680 stripped
 GameObject:
