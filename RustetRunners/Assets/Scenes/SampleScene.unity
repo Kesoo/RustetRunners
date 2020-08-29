@@ -231,10 +231,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1213926348075239793, guid: 4322fd5b03de4b84aaabad2bae24fb9d, type: 3}
-      propertyPath: obstacle
-      value: 
-      objectReference: {fileID: 5596366678879698459, guid: 93460a0dcf356d247a2bacf632ffbe63, type: 3}
     - target: {fileID: 1213926348075239794, guid: 4322fd5b03de4b84aaabad2bae24fb9d, type: 3}
       propertyPath: m_Name
       value: PointSpawner

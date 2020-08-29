@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2387708584680839004, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.75
+      value: 3.23
       objectReference: {fileID: 0}
     - target: {fileID: 2387708584680839004, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: timeBetweenSpawn
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2387708584680839005, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
+      propertyPath: obstacle
+      value: 
+      objectReference: {fileID: 5596366678879698459, guid: 93460a0dcf356d247a2bacf632ffbe63, type: 3}
     - target: {fileID: 2387708584680839006, guid: 85f075c217e9f0147bb5bc8c8e4140e3, type: 3}
       propertyPath: m_Name
       value: PointSpawner
