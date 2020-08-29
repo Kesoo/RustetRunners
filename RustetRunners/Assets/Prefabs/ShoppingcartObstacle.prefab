@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!60 &2288972754614798689
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3545628485070764108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.4615386, y: 2.4615386}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.0044166, y: -0.12982228}
+      - {x: 1.0740678, y: 0.304327}
+      - {x: 0.7148251, y: 0.014220446}
+      - {x: -0.7628734, y: -0.05634565}
+      - {x: -0.9480711, y: -1.1690367}
+      - {x: 0.92210615, y: -1.1896144}
 --- !u!95 &1842118886
 Animator:
   serializedVersion: 3
@@ -86,7 +117,8 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8766716597109164880, guid: c0431d9363818ac40a878269a453fd53, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c0431d9363818ac40a878269a453fd53, type: 3}
 --- !u!1 &3545628485070764108 stripped
 GameObject:
