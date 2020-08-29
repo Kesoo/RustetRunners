@@ -105,6 +105,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShoppingcartObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
+      propertyPath: minSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
+      propertyPath: maxSpeed
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 2739357367970002653, guid: c0431d9363818ac40a878269a453fd53, type: 3}
       propertyPath: m_Sprite
       value: 
