@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreTextBehavior : MonoBehaviour
+public class HealthTextBehavior : MonoBehaviour
 {
     
-    public Text scoreText;
+    public Text healthText;
     public GameObject player;
 
 
@@ -14,12 +14,12 @@ public class ScoreTextBehavior : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        scoreText.text = "Score: " + player.GetComponent<PlayerStats>().score;
+        healthText.text = "Health: " + player.GetComponent<PlayerStats>().health;
     }
 
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Score: " + player.GetComponent<PlayerStats>().score;
+        healthText.text = "Health: " + player.GetComponent<PlayerStats>().health;
     }
 }
