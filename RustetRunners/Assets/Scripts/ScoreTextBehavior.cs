@@ -7,18 +7,19 @@ public class ScoreTextBehavior : MonoBehaviour
 {
     
     public Text scoreText;
-    public PlayerStats stats;
+    public GameObject player;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = "Score: " + stats.score;
+        scoreText.text = "Score: " + player.GetComponent<PlayerStats>().score;
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Score: " + stats.score;
+        scoreText.text = "Score: " + player.GetComponent<PlayerStats>().score;
     }
 }
