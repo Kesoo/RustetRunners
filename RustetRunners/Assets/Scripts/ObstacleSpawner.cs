@@ -8,7 +8,7 @@ public class ObstacleSpawner : MonoBehaviour
     public GameObject obstacle;
 
     private float timeLeftUntilSpawn;
-    public float timeBetweenSpawn;
+    public float maxTimeBetweenSpawn;
 
     // Update is called once per frame
     void Update()
@@ -16,7 +16,7 @@ public class ObstacleSpawner : MonoBehaviour
         if (timeLeftUntilSpawn <= 0)
         {
             Instantiate(obstacle, transform.position, Quaternion.identity);
-            timeLeftUntilSpawn = timeBetweenSpawn;
+            timeLeftUntilSpawn = Random.Range(1,maxTimeBetweenSpawn);
         } else
         {
             timeLeftUntilSpawn -= Time.deltaTime;
