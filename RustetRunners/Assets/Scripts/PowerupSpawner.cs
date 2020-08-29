@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PointSpawner : MonoBehaviour
+public class PowerupSpawner : MonoBehaviour
 {
 
-    public GameObject point;
+    public GameObject powerup;
 
     private float timeLeftUntilSpawn;
     public float maxTimeBetweenSpawn;
@@ -17,7 +17,7 @@ public class PointSpawner : MonoBehaviour
     {
         if (timeLeftUntilSpawn <= 0)
         {
-            Instantiate(point, new Vector2(11.59f, Random.Range(minHeight, maxHeight)), Quaternion.identity);
+            Instantiate(powerup, new Vector2(11.59f, Random.Range(minHeight, maxHeight)), Quaternion.identity);
             timeLeftUntilSpawn = Random.Range(1,maxTimeBetweenSpawn);
         } else
         {
