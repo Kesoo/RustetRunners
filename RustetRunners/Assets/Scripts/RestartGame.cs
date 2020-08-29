@@ -8,7 +8,6 @@ public class RestartGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("RESTARTSCRIPT ACTIVE");
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
