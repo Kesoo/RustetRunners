@@ -73,7 +73,7 @@ public class CharacterController2D : MonoBehaviour
         foreach (Collider2D hit in hits)
         {
             // Ignore our own collider.
-            if (hit == boxCollider)
+            if (hit == boxCollider || !hit.CompareTag("Ground"))
                 continue;
 
             ColliderDistance2D colliderDistance = hit.Distance(boxCollider);
@@ -92,5 +92,7 @@ public class CharacterController2D : MonoBehaviour
                 }
             }
         }
+
+
     }
 }
