@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d43d4e86dc5e914c94b70bbe1c3feed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 1352556132541684324, guid: c0431d9363818ac40a878269a453fd53, type: 3}
+  obstacle: {fileID: 3545628485070764108, guid: 9267ca2c52275544698cf022be14d21b, type: 3}
   timeBetweenSpawn: 3
