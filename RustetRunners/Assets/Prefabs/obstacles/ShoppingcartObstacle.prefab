@@ -107,11 +107,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
       propertyPath: minSpeed
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
       propertyPath: maxSpeed
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2710919288153513597, guid: c0431d9363818ac40a878269a453fd53, type: 3}
       propertyPath: particleEffect

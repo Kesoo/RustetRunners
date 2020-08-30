@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacle: {fileID: 3545628485070764108, guid: 9267ca2c52275544698cf022be14d21b, type: 3}
-  maxTimeBetweenSpawn: 7
+  maxTimeBetweenSpawn: 3

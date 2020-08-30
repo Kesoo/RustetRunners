@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerup: {fileID: 4378639284753600689, guid: e10973ec630f5ff4f93b207ed5712ef7, type: 3}
-  maxTimeBetweenSpawn: 10
+  maxTimeBetweenSpawn: 20
 --- !u!1001 &3199082466523172108
 PrefabInstance:
   m_ObjectHideFlags: 0

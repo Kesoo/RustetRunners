@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a2ed489d767f34bb7391accfa38e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacle: {fileID: 5596366678879698459, guid: 93460a0dcf356d247a2bacf632ffbe63, type: 3}
-  maxTimeBetweenSpawn: 7
+  point: {fileID: 0}
+  maxTimeBetweenSpawn: 4
 --- !u!1001 &3601300641492655660
 PrefabInstance:
   m_ObjectHideFlags: 0

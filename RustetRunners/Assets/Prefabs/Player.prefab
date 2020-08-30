@@ -99,10 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9
-  walkAcceleration: 75
-  airAcceleration: 30
+  walkAcceleration: 60
+  airAcceleration: 15
   groundDeceleration: 70
-  jumpHeight: 4
+  jumpHeight: 3
 --- !u!114 &7104972917279935684
 MonoBehaviour:
   m_ObjectHideFlags: 0
