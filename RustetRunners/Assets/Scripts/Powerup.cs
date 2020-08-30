@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Powerup : MonoBehaviour
 {
-    public int score;
+    public int healthIncrease;
     public int speed;
     public GameObject pickup;
 
@@ -17,7 +17,8 @@ public class Powerup : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collider){
         if(collider.CompareTag("Player")){
             Instantiate(pickup, transform.position, Quaternion.identity);
-            //collider.GetComponent<PlayerStats>().score += this.score;
+            int playerCurrentHealth = collider.GetComponent<PlayerStats>().health;
+            collider.GetComponent<PlayerStats>().health += playerCurrentHealth >= 3 ? 0 : healthIncrease;
             Destroy(gameObject);
         }
     }
