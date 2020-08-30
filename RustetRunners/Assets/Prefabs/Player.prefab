@@ -118,6 +118,7 @@ MonoBehaviour:
   health: 3
   score: 0
   gameOver: {fileID: 3585164418480147072, guid: 3b87c13ca778c90408d2c66863ded04e, type: 3}
+  gameOverSound: {fileID: 3995046205649235765, guid: 4fc745c7b4030ac49816d45f77538cbd, type: 3}
 --- !u!61 &2672645316042591839
 BoxCollider2D:
   m_ObjectHideFlags: 0

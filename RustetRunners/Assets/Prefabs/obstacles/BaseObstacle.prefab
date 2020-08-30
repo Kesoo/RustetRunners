@@ -99,7 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 5
+  minSpeed: 0
+  maxSpeed: 0
+  particleEffect: {fileID: 0}
+  hitSound: {fileID: 5985952208414592320, guid: 30d394f0e3045214baf379037f19cc49, type: 3}
 --- !u!50 &234222576001473856
 Rigidbody2D:
   serializedVersion: 4

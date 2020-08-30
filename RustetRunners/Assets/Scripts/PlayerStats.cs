@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour
 {
     public int health;
     public int score;
-    public GameObject gameOver;
+    public GameObject gameOver, gameOverSound;
 
     private bool incremented;
 
@@ -26,6 +26,7 @@ public class PlayerStats : MonoBehaviour
 
         if (health <= 0)
         {
+            Instantiate(gameOverSound, transform.position, Quaternion.identity);
             Debug.Log("DEAD");
             gameOver.SetActive(true);
             gameObject.SetActive(false);
